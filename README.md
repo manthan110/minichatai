@@ -12,7 +12,7 @@ MiniChatAI is a highly responsive, full-stack conversational AI application desi
 ## 🛠️ Technology Stack
 * **Frontend:** HTML5, CSS3, Vanilla JavaScript, `marked.js` (Markdown parsing), `highlight.js` (Syntax highlighting)
 * **Backend:** Python, Flask (REST API routing), `python-dotenv` (Environment management)
-* **AI & APIs:** Groq API (Inference Engine), `LLaMA-3.3-70b-versatile` (Core LLM), Tavily Search API (Real-time Web Search)
+* **AI & APIs:** Groq API (Inference Engine), `openai/gpt-oss-20b` (Core LLM), Tavily Search API (Real-time Web Search)
 
 ## 🚀 Deployment
 MiniChatAI is deployed on Render as a Flask web service. Environment variables (`GROQ_API_KEY` and `TAVILY_API_KEY`) are securely managed through Render's dashboard, while the application is served using Gunicorn for production deployment.
