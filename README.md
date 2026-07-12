@@ -17,4 +17,4 @@ MiniChatAI is a highly responsive, full-stack conversational AI application desi
 ## 🚀 Deployment
 MiniChatAI is deployed on Render as a Flask web service. Environment variables (`GROQ_API_KEY` and `TAVILY_API_KEY`) are securely managed through Render's dashboard, while the application is served using Gunicorn for production deployment.
 
-Live Demo: https://minichatai.onrender.com 
+Live Demo: https://minichatai.onrender.com
